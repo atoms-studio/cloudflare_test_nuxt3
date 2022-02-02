@@ -1,0 +1,14 @@
+name = "cloudflare_test_nuxt3"
+type = "javascript"
+account_id = "676cf87492e43592dba6137ac408d00b"
+workers_dev = true
+route = ""
+zone_id = ""
+
+[site]
+bucket = ".output/public"
+entry-point = ".output"
+
+[build]
+command = "NITRO_PRESET=cloudflare yarn nuxt build"
+upload.format = "service-worker"
