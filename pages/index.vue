@@ -2,7 +2,7 @@
   <div>
     <p>Data: <pre>{{ data }}</pre></p>
   </div>
-  <nuxt-link to="/user">User</nuxt-link>
+  <nuxt-link to="/users/1">User</nuxt-link>
 </template>
 
 <script setup>
